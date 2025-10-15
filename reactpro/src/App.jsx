@@ -1,12 +1,17 @@
 import Hello from "./components/Hello";
 function App() {
+  const seatNumbers = [1, 2, 3, 5];
+  const person = {
+    name: "Rob",
+    message: "Hi there!",
+    seatNumbers: [1, 4, 7]
+  };
+
   return (
     <div className="App">
-      <Hello name="Rob" message="Hi there! "/>
-      <Hello name="Tom" message="Hello... "/>
+      <Hello person={person}/>
     </div>
   );
 }
 
 export default App;
-   
