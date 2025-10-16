@@ -13,7 +13,8 @@ function App() {
     <div className="App">
       {/* <Hello person={person}/> */}
       {/* <Fruits /> */}
-      <ConditionalComponents />
+      {/* <ConditionalComponents /> */}
+      <Fruits />
 
     </div>
   );

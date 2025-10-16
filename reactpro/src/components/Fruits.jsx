@@ -4,7 +4,7 @@ export default function Fruits() {
 
   const fruits = [
     { name: "Apple", price: 10 },
-    { name: "Orange", price: 9 },
+    { name: "Orange", price: 3 },
     { name: "Grape", price: 6 },
     { name: "Banana", price: 4 },
   ];
